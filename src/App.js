@@ -6,30 +6,32 @@ import { FirstComp } from "./Component/FirstComp";
 import FunctionalComp from "./Component/FunctionalComp";
 import { PropsComponent } from "./Component/PropsComponent";
 import { PropsComponent1 } from "./Component/PropsComponent1";
+import { ToDoList } from "./Component/ToDoList";
+import "./Component/ToDoList.css"
 
 function App() {
   //////////////////////////////////////////////////////(This is props)
-  const kName = "Khuzaim";
-  const surName = "Shaikh";
-  const pName = "From Navapur (Mangaldas Park)";
-  const yName = "Yusuf";
-  const surName1 = "Mulla";
-  const pName1 = "From Chinchpada";
-  const iName = "Ibrahim";
-  const surName2 = "Dungariwala";
-  const pName2 = "Form Visarwadi";
-  const sName = "Sufiyan";
-  const surName3 = "Bardolia";
-  const pName3 = "From Navapur (Memon Gali)";
+  // const kName = "Khuzaim";
+  // const surName = "Shaikh";
+  // const pName = "From Navapur (Mangaldas Park)";
+  // const yName = "Yusuf";
+  // const surName1 = "Mulla";
+  // const pName1 = "From Chinchpada";
+  // const iName = "Ibrahim";
+  // const surName2 = "Dungariwala";
+  // const pName2 = "Form Visarwadi";
+  // const sName = "Sufiyan";
+  // const surName3 = "Bardolia";
+  // const pName3 = "From Navapur (Memon Gali)";
   //////////////////////////////////////////////////////(This is props)
-  const cName = "Buggati Veron";
-  const cPrice = "$120 Million";
-  const cColor = "Matt Black";
-  const cType = "20L Petrol(Sports)";
-  const cName1 = "Ferrari";
-  const cPrice1 = "$100 Million";
-  const cColor1 = "Black";
-  const cType1 = "10L Petrol(Sports)";
+  // const cName = "Buggati Veron";
+  // const cPrice = "$120 Million";
+  // const cColor = "Matt Black";
+  // const cType = "20L Petrol(Sports)";
+  // const cName1 = "Ferrari";
+  // const cPrice1 = "$100 Million";
+  // const cColor1 = "Black";
+  // const cType1 = "10L Petrol(Sports)";
   return (
     <div className="App">
       {/* <FunctionalComp/> */}
@@ -48,6 +50,7 @@ function App() {
       {/* <PropsComponent1 /> */}
       {/* <PropsComponent1 /> */}
       {/* ////////////////////////////////(This is props^)////////////////////////////////////////////////////////////////////// */}
+      <ToDoList/>
     </div>
   );
 }

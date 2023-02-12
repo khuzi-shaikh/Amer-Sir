@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.div {
+  text-align: center;
+  background-color: thistle;
+  height: 1000px;
+}
+.li {
+  font-size: 35px;
+}
+#B{
+    margin-top: 10px;
+}
