@@ -8,6 +8,7 @@ import { PropsComponent } from "./Component/PropsComponent";
 import { PropsComponent1 } from "./Component/PropsComponent1";
 import { ToDoList } from "./Component/ToDoList";
 import "./Component/ToDoList.css"
+import { TodoPractice } from "./Component/TodoPractice";
 
 function App() {
   //////////////////////////////////////////////////////(This is props)
@@ -37,7 +38,7 @@ function App() {
       {/* <FunctionalComp/> */}
       {/* <ClassComp/> */}
       {/* <FirstComp/> */}
-      {/* <Counter/> */}
+      <Counter/>
       {/* <CounterWithSnglfnction/> */}
       {/* ////////////////////////////////(This is props)////////////////////////////////////////////////////////////////////// */}
       {/* <PropsComponent name1={kName} name2={surName} name3={pName} /> */}
@@ -50,7 +51,8 @@ function App() {
       {/* <PropsComponent1 /> */}
       {/* <PropsComponent1 /> */}
       {/* ////////////////////////////////(This is props^)////////////////////////////////////////////////////////////////////// */}
-      <ToDoList/>
+      {/* <ToDoList/> */}
+      {/* <TodoPractice/> */}
     </div>
   );
 }

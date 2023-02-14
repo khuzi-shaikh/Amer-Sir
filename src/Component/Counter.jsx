@@ -7,7 +7,7 @@ export const Counter = () => {
     setValue((count) => count  + 1);
   };
   const decrementCount = () => {
-    setValue((count) => count<= - 1);
+    setValue((count) => count <= - 1);
   };
   const reset = () => {
     setValue(0);
