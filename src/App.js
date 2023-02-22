@@ -9,6 +9,9 @@ import { PropsComponent1 } from "./Component/PropsComponent1";
 import { ToDoList } from "./Component/ToDoList";
 import "./Component/ToDoList.css"
 import { TodoPractice } from "./Component/TodoPractice";
+import { UseRefExample } from "./Component/UseRefExample";
+import { UseRefPractice } from "./Component/UseRefPractice";
+import { UseRes } from "./Component/UseRes";
 
 function App() {
   //////////////////////////////////////////////////////(This is props)
@@ -38,7 +41,7 @@ function App() {
       {/* <FunctionalComp/> */}
       {/* <ClassComp/> */}
       {/* <FirstComp/> */}
-      <Counter/>
+      {/* <Counter/> */}
       {/* <CounterWithSnglfnction/> */}
       {/* ////////////////////////////////(This is props)////////////////////////////////////////////////////////////////////// */}
       {/* <PropsComponent name1={kName} name2={surName} name3={pName} /> */}
@@ -53,6 +56,9 @@ function App() {
       {/* ////////////////////////////////(This is props^)////////////////////////////////////////////////////////////////////// */}
       {/* <ToDoList/> */}
       {/* <TodoPractice/> */}
+      {/* <UseRefExample/> */}
+      {/* <UseRes/> */}
+      <UseRefPractice/>
     </div>
   );
 }
